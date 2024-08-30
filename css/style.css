@@ -1,0 +1,35 @@
+.menus, .menus1, .menus2, .menus3, .menus4{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(245, 245, 220);
+    color:#000000;
+    font-size:2em;
+    padding: 30px 10px;
+}
+
+.menus1{
+    background-color: rgb(147, 233, 255);
+    justify-content: space-between;
+}
+
+.menus2{
+    background-color: rgb(255, 147, 150);
+    justify-content: end;
+}
+
+.menus2{
+    background-color: rgb(197, 255, 147);
+    justify-content: space-evenly;
+}
+
+.menus3{
+    background-color: rgb(255, 42, 0);
+    justify-content: start;
+}
+
+.menus4{
+    background-color: rgb(241, 16, 188);
+    justify-content: space-around;
+}
